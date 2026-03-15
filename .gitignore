@@ -1,0 +1,47 @@
+# --- Godot 4 ---
+# Godot cache, importerte ressurser og editor-state:
+.godot/
+
+# Eksportbygger (generelle målmapper du selv bruker):
+export/
+build/
+dist/
+bin/
+# Vanlige plattformer:
+*.apk
+*.aab
+*.ipa
+*.app
+*.exe
+*.pck
+*.zip
+*.tar
+*.dmg
+
+# Crash dumps / profiler:
+*.log
+*.ctmp
+*.cfg~   # backupfiler
+
+# Midlertidige filer
+*.tmp
+*.temp
+
+# OS-spesifikt
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# --- C# / Mono (om prosjektet bruker C#) ---
+.mono/
+.nuget/
+obj/
+bin/
+*.user
+*.suo
+*.csproj.user
